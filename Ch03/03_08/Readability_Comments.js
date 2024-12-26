@@ -14,7 +14,7 @@ var tinyAlmanac = {
   year: 2012,
   month: "October",
   day: 31,
-  holiday: "Halloween"
+  holiday: "Halloween",
 };
 
 // watch out for block comments here
