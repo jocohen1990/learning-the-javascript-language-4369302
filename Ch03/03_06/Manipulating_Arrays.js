@@ -9,9 +9,11 @@ counties;
 counties[4] = "Carroll";
 counties;
 
+//Adding another item to an array
 counties[counties.length] = "Merrimack";
 counties;
 
+//Adding another item to an array
 counties.push("Coos");
 counties;
 
@@ -20,7 +22,7 @@ counties.pop();
 delete counties[2];
 counties;
 
-counties.splice(2, 1);
+counties.splice(2, 1); //this means the 3rd listed item, 1 item at this time, removes the <1 empty item> text
 counties;
 counties.length;
 
