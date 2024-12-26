@@ -1,4 +1,4 @@
-// This is a transcript of the lines of code from the lesson.
+// This is a transcript of the lines of code from the lesson, Variables and Types > Numbers
 // You can copy and paste each line into a JavaScript console to execute it and see the result.
 
 12
