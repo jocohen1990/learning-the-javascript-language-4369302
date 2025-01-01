@@ -2,8 +2,9 @@ var animal = "cat";
 // animal = 'dog';
 
 animal === "cat"
-  ? console.log("You will be a cat herder.")
-  : console.log("You will be a dog catcher.");
+  ? console.log("You will be a cat herder.") // true
+  : console.log("You will be a dog catcher."); // false
+// the order of the ? and the : matters
 
 var job = animal === "cat" ? "cat herder" : "dog catcher";
 

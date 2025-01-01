@@ -8,10 +8,10 @@ typeof thing;
 thing = false;
 typeof thing;
 
-thing = {};
+thing = {}; // empty
 typeof thing;
 
-thing = [];
+thing = []; // an array
 typeof thing;
 typeof thing === "object" && thing.hasOwnProperty("length"); // true
 
@@ -20,7 +20,7 @@ typeof thing === "object" && thing.hasOwnProperty("length"); // false
 
 NaN;
 typeof NaN;
-Number.isNaN();
+Number.isNaN(); // true
 
 typeof null;
 thing === null;

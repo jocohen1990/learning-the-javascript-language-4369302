@@ -1,5 +1,7 @@
-// &&
-// ||
+// && logical and
+// || logical or 
+
+// JS has operator precedence, so when combining the && and || the && is read first.
 
 let animal1 = "monkey", animal2 = "bear", animal3 = "tiger";
 
