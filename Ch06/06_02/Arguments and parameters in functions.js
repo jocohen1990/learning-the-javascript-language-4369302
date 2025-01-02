@@ -10,7 +10,7 @@ function fuddify(speech) {
   }
 
   // otherwise, make it sound like Elmer Fudd
-  speech = speech.replace(/r/g, "w");
+  speech = speech.replace(/r/g, "w");  // the g means global
   speech = speech.replace(/R/g, "W");
 
   return speech;

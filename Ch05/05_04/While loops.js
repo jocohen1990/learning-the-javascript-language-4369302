@@ -3,6 +3,7 @@ for (let i = 0; i < 10; i += 1) {
   console.log(i);
 }
 
+// a while loop is better than a for lopp if you do not know how many times you have to loop.
 // same thing as a while loop
 let i = 0;
 while (i < 10) {

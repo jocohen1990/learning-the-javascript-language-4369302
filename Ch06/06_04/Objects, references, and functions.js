@@ -13,7 +13,7 @@ function transmogrifier(calvin) {
   }
 
   // generate a random number between 1 and 5
-  var randomNumber = Math.floor(Math.random() * 5) + 1;
+  var randomNumber = Math.floor(Math.random() * 5) + 1; //the floor section rounds off the total so its a whole number
 
   switch (randomNumber) {
     case 1:
