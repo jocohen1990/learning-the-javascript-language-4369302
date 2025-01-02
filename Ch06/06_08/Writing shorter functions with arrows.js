@@ -7,7 +7,7 @@ const speak = function () {
 };
 
 // After:
-const speak = () => {
+const speak = () => { //must include the => to be recognized as a function
   console.log("Arf");
   console.log("Woof");
   console.log("Meow");
