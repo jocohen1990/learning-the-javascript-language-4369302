@@ -1,6 +1,8 @@
 for (let i = 0; i < 10; i += 1) {
+  // i=0 is the initialization of the variable; i < 10 is the condition, determines when the loop will stop; i += 1 is to increment the variable, stopping at 10
   console.log(i);
 }
+// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, undefined (loop stops at 10, is not shown in console)
 
 // very common use case: looping over an array.
 var pageNames = [
@@ -9,7 +11,7 @@ var pageNames = [
   "Contact Us",
   "JavaScript Playground",
   "News",
-  "Blog"
+  "Blog",
 ];
 for (i = 0; i < pageNames.length; i += 1) {
   if (document.title === pageNames[i]) {
@@ -26,7 +28,7 @@ var pageNames = [
   "Contact Us",
   "JavaScript Playground",
   "News",
-  "Blog"
+  "Blog",
 ];
 for (i = 0; i < pageNames.length; i += 1) {
   var currentPageTitle = pageNames[i];
